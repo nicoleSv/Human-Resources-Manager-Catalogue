@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!ELEMENT company (about, levels)>
+	<!ATTLIST company name CDATA #REQUIRED>
+
+	<!ELEMENT about (logo, information,products,perspectives)>
+	<!ELEMENT logo (image)>
+	<!ELEMENT information (#PCDATA)>
+	<!ELEMENT products (#PCDATA)>
+	<!ELEMENT perspectives (#PCDATA)>
+	
+	<!ELEMENT levels (topLevel, midLevel, lowLevel)>
+
+	<!ELEMENT employeeList (employee+)>
+	<!ELEMENT employee (image, name,telephone,age,salary,hireDate)>
+	<!ATTLIST employee ID CDATA #REQUIRED>
+	<!ATTLIST employee experience (senior|mid|junior|intern) #IMPLIED>
+	<!ATTLIST employee workWeek (fullTime|partTime) #REQUIRED>
+
+	<!ELEMENT name (firstName, midName, lastName)>
+	<!ELEMENT firstName (#PCDATA)>
+	<!ELEMENT midName (#PCDATA)>
+	<!ELEMENT lastName (#PCDATA)>
+	<!ELEMENT telephone (#PCDATA)>
+	<!ELEMENT age (#PCDATA)>
+	<!ELEMENT salary (#PCDATA)>
+	<!ELEMENT hireDate (#PCDATA)>
+
+	<!ELEMENT topLevel (boardOfDirectors,chiefOfficer,president,vicePresident)>
+	<!ELEMENT boardOfDirectors (employeeList)>
+	<!ELEMENT chiefOfficer (employee)>
+	<!ELEMENT president (employee)>
+	<!ELEMENT vicePresident (employee)>
+
+	<!ELEMENT midLevel (departmentsList)>
+	<!ELEMENT departmentsList (department+)>
+
+	<!ELEMENT department (subdepartment+|employeeList)>
+	<!ATTLIST department name CDATA #REQUIRED>
+	<!ATTLIST department image_src ENTITY #REQUIRED>
+	<!ATTLIST department diagram_src ENTITY #IMPLIED>
+	<!ELEMENT subdepartment (employeeList)>
+	<!ATTLIST subdepartment name CDATA #REQUIRED>
+	
+	<!ELEMENT lowLevel (cleaningStaff, stationaryStaff)>
+	<!ELEMENT cleaningStaff (employeeList)>
+	<!ELEMENT stationaryStaff (employeeList)>
+	
+	<!NOTATION jpg PUBLIC "image/jpeg">
+	<!ELEMENT image EMPTY>
+	<!ATTLIST image src ENTITY #REQUIRED>	

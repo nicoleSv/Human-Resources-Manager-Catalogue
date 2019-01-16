@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="XSL_HumanResourceManager.xsl"?>
+
+<!DOCTYPE company SYSTEM "DTD_HumanResourceManager_1_61987_61999.dtd" [
+	<!ENTITY companyLogo SYSTEM "images/logo.jpg" NDATA jpg>
+	<!ENTITY face1 SYSTEM "images/1.jpg" NDATA jpg>
+	<!ENTITY face2 SYSTEM "images/2.jpg" NDATA jpg>
+	<!ENTITY face3 SYSTEM "images/3.jpg" NDATA jpg>
+	<!ENTITY face4 SYSTEM "images/4.jpg" NDATA jpg>
+	<!ENTITY face5 SYSTEM "images/5.jpg" NDATA jpg>
+	<!ENTITY face6 SYSTEM "images/6.jpg" NDATA jpg>
+	<!ENTITY face7 SYSTEM "images/7.jpg" NDATA jpg>
+	<!ENTITY face8 SYSTEM "images/8.jpg" NDATA jpg>
+	<!ENTITY face9 SYSTEM "images/9.jpg" NDATA jpg>
+	<!ENTITY face10 SYSTEM "images/10.jpg" NDATA jpg>
+	<!ENTITY face11 SYSTEM "images/11.jpg" NDATA jpg>
+	<!ENTITY face12 SYSTEM "images/12.jpg" NDATA jpg>
+	<!ENTITY face13 SYSTEM "images/13.jpg" NDATA jpg>
+	<!ENTITY face14 SYSTEM "images/14.jpg" NDATA jpg>
+	<!ENTITY face15 SYSTEM "images/15.jpg" NDATA jpg>
+	<!ENTITY face16 SYSTEM "images/16.jpg" NDATA jpg>
+	<!ENTITY face17 SYSTEM "images/17.jpg" NDATA jpg>
+	<!ENTITY dep1 SYSTEM "images/marketing.jpg" NDATA jpg>
+	<!ENTITY dep2 SYSTEM "images/sales.jpg" NDATA jpg>
+	<!ENTITY dep3 SYSTEM "images/finance.jpg" NDATA jpg>
+	<!ENTITY dep4 SYSTEM "images/legal.jpg" NDATA jpg>
+	<!ENTITY dep5 SYSTEM "images/technology.jpg" NDATA jpg>
+	<!ENTITY dep6 SYSTEM "images/support.jpg" NDATA jpg>
+	<!ENTITY dep7 SYSTEM "images/hr.jpg" NDATA jpg>
+	<!ENTITY dep8 SYSTEM "images/admin.jpg" NDATA jpg>
+	<!ENTITY diagram1 SYSTEM "images/diagram1.jpg" NDATA jpg>
+	<!ENTITY diagram2 SYSTEM "images/diagram2.jpg" NDATA jpg>
+	<!ENTITY diagram3 SYSTEM "images/diagram3.jpg" NDATA jpg>
+	<!ENTITY diagram4 SYSTEM "images/diagram4.jpg" NDATA jpg>
+	<!ENTITY diagram5 SYSTEM "images/diagram5.jpg" NDATA jpg>
+	<!ENTITY diagram6 SYSTEM "images/diagram6.jpg" NDATA jpg>
+	<!ENTITY diagram7 SYSTEM "images/diagram7.jpg" NDATA jpg>
+]>
+
+<company name="Gaming Fox">
+	<about>
+		<logo>
+			<image src="companyLogo"></image>
+		</logo>
+
+		<information>
+			In a small office above a bar in Vancouver’s funky, newly resurgent Yaletown district, burgeoning game developers Alex Garden and Luke Moloney, mother and father’s PewDiePie, establish a gaming studio called Gaming Fox. Their vision for the studio was simple: become the world's best RTS studio. From the outset, Gaming Fox sought to balance the priorities of people and products while creating the best entertainment software available. A philosophy that clearly resonates given that five of the 39 employees who were part of Gaming Fox’s inception, remain with the company to this day.
+		</information>
+
+		<products>
+			For more than 30 years, Gaming Fox has been changing the way people play.  In the process, we have built one of the largest portfolios of recognized brands and today we are one of the most valuable interactive entertainment companies in the world.  We have continue to thrive as a leading digital entertainment provider whose games appeal to a variety of gamers.
+
+		</products>
+		
+		<perspectives>
+		At Gaming Fox, we want to make great games that sell, and we wouldn’t be able to do it without our people. We achieve our success through our immensely talented development teams, and the operational expertise of our management, marketing, and corporate services. And most importantly we are gamers who develop products for gamers.We believe that creativity sparks innovation and inspires our employees to think differently and challenge the status quo. Whether it’s the kind of products we develop, our approach to sustainability, or the manner in which we give back to our communities, Gaming Fox finds unique ways to bring people together to fuel creative thinking.
+		</perspectives>
+	</about>
+
+	<levels>
+		<topLevel>
+			<boardOfDirectors>
+				<employeeList>
+					<employee ID="1" workWeek="fullTime">
+						<image src="face1"></image>
+						<name>
+							<firstName>Felix</firstName>
+							<midName>Arvid Ulf</midName>
+							<lastName>Kjellberg (PewDiePie)</lastName>
+						</name>
+						<telephone>507-76-0410</telephone>
+						<age>29</age>
+						<salary>$18,300</salary>
+						<hireDate>7/28/2000</hireDate>
+					</employee>
+
+					<employee ID="2" workWeek="fullTime">
+						<image src="face2"></image>
+						<name>
+							<firstName>Jason</firstName>
+							<midName>Anthony</midName>
+							<lastName>Lamb</lastName>
+						</name>
+						<telephone>202-544-6247</telephone>
+						<age>30</age>
+						<salary>$15,100</salary>
+						<hireDate>06/28/1990</hireDate>
+					</employee>
+
+					<employee ID="3" workWeek="fullTime">
+						<image src="face3"></image>
+						<name>
+							<firstName>James</firstName>
+							<midName>Henry</midName>
+							<lastName>Keller</lastName>
+						</name>
+						<telephone>202-544-6000</telephone>
+						<age>50</age>
+						<salary>$12,100</salary>
+						<hireDate>10/28/2000</hireDate>
+					</employee>
+				</employeeList>
+			</boardOfDirectors>
+
+			<chiefOfficer>
+				<employee ID="4"  workWeek="fullTime">
+					<image src="face4"></image>
+					<name>
+						<firstName>Oliver</firstName>
+						<midName>Rose</midName>
+						<lastName>Horman</lastName>
+					</name>
+					<telephone>202-103-6000</telephone>
+					<age>25</age>
+					<salary>$8,300</salary>
+					<hireDate>02/28/1990</hireDate>
+				</employee>
+			</chiefOfficer>
+
+			<president>
+				<employee ID="5"  workWeek="fullTime">
+					<image src="face5"></image>
+					<name>
+						<firstName>Felix</firstName>
+						<midName>Arvid Ulf</midName>
+						<lastName>Kjellberg</lastName>
+					</name>
+					<telephone>088-888-8888</telephone>
+					<age>29</age>
+					<salary>$8,500</salary>
+					<hireDate>02/20/1990</hireDate>
+				</employee>
+			</president>
+
+			<vicePresident>
+				<employee ID="6"  workWeek="fullTime">
+					<image src="face6"></image>
+					<name>
+						<firstName>Logan</firstName>
+						<midName>Grace</midName>
+						<lastName>Hartley</lastName>
+					</name>
+					<telephone>202-103-6200</telephone>
+					<age>36</age>
+					<salary>$9,300</salary>
+					<hireDate>02/20/1980</hireDate>
+				</employee>
+			</vicePresident>
+		</topLevel>
+
+		<midLevel>
+			<departmentsList>
+				<department name="Marketing" diagram_src="diagram1" image_src="dep1">
+					<subdepartment name="Public Relations">
+						<employeeList>
+							<employee ID="36"  workWeek="fullTime">
+								<image src="face10"></image>
+								<name>
+									<firstName>Jane</firstName>
+									<midName>Azalee</midName>
+									<lastName>Schachter</lastName>
+								</name>
+								<telephone>202-303-6260</telephone>
+								<age>39</age>
+								<salary>$6,300</salary>
+								<hireDate>02/12/2010</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+
+					<subdepartment name="Product Marketing Manager">
+						<employeeList>
+							<employee ID="37"  workWeek="fullTime">
+								<image src="face7"></image>
+								<name>
+									<firstName>Azalee</firstName>
+									<midName>Jane</midName>
+									<lastName>Hartley</lastName>
+								</name>
+								<telephone>202-000-6260</telephone>
+								<age>39</age>
+								<salary>$5,900</salary>
+								<hireDate>01/05/2005</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+				</department>
+
+				<department name="Sales" diagram_src="diagram2" image_src="dep2">
+					<subdepartment name="Sales Administration">
+						<employeeList>
+							<employee ID="7"  workWeek="fullTime">
+								<image src="face6"></image>
+								<name>
+									<firstName>Schachter</firstName>
+									<midName>Jane</midName>
+									<lastName>Schachter</lastName>
+								</name>
+								<telephone>202-103-6260</telephone>
+								<age>39</age>
+								<salary>$5,300</salary>
+								<hireDate>02/20/2010</hireDate>
+							</employee>
+
+							<employee ID="8"  workWeek="fullTime">
+								<image src="face7"></image>
+								<name>
+									<firstName>Leonida</firstName>
+									<midName>Louise</midName>
+									<lastName>Sok</lastName>
+								</name>
+								<telephone>203-103-6260</telephone>
+								<age>40</age>
+								<salary>$3,300</salary>
+								<hireDate>08/20/2010</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+
+					<subdepartment name="Inside Sales">
+						<employeeList>
+							<employee ID="9"  workWeek="partTime">
+								<image src="face8"></image>
+								<name>
+									<firstName>Emanuela</firstName>
+									<midName>Jade</midName>
+									<lastName>Violette</lastName>
+								</name>
+								<telephone>233-103-6260</telephone>
+								<age>36</age>
+								<salary>$5,300</salary>
+								<hireDate>08/21/2010</hireDate>
+							</employee>
+
+							<employee ID="10"  workWeek="partTime">
+								<image src="face9"></image>
+								<name>
+									<firstName>Hyo</firstName>
+									<midName>May</midName>
+									<lastName>Bastin</lastName>
+								</name>
+								<telephone>239-103-6260</telephone>
+								<age>49</age>
+								<salary>$5,250</salary>
+								<hireDate>08/21/2005</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+
+					<subdepartment name="Business Operations">
+						<employeeList>
+							<employee ID="11"  workWeek="fullTime">
+								<image src="face10"></image>
+								<name>
+									<firstName>Audra</firstName>
+									<midName>Elizabeth</midName>
+									<lastName>Myricks</lastName>
+								</name>
+								<telephone>239-103-6260</telephone>
+								<age>60</age>
+								<salary>$5,250</salary>
+								<hireDate>06/23/2005</hireDate>
+							</employee>
+
+							<employee ID="12"  workWeek="partTime">
+								<image src="face11"></image>
+								<name>
+									<firstName>Mason</firstName>
+									<midName>Marie</midName>
+									<lastName>Lasseter</lastName>
+								</name>
+								<telephone>109-103-6260</telephone>
+								<age>22</age>
+								<salary>$3,250</salary>
+								<hireDate>06/23/2015</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+
+					<subdepartment name="Field Sales">
+						<employeeList>
+							<employee ID="13"  workWeek="fullTime">
+								<image src="face12"></image>
+								<name>
+									<firstName>Zaida</firstName>
+									<midName>Kate</midName>
+									<lastName>Clair</lastName>
+								</name>
+								<telephone>109-103-6000</telephone>
+								<age>20</age>
+								<salary>$1,250</salary>
+								<hireDate>06/23/2017</hireDate>
+							</employee>
+
+							<employee ID="14"  workWeek="fullTime">
+								<image src="face13"></image>
+								<name>
+									<firstName>Mac</firstName>
+									<midName>James</midName>
+									<lastName>Hennigan</lastName>
+								</name>
+								<telephone>109-103-7880</telephone>
+								<age>23</age>
+								<salary>$1,290</salary>
+								<hireDate>06/23/2017</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+				</department>
+
+				<department name="Finances" diagram_src="diagram3" image_src="dep3">
+					<subdepartment name="Accounting">
+						<employeeList>
+							<employee ID="15"  workWeek="partTime">
+								<image src="face14"></image>
+								<name>
+									<firstName>Liam</firstName>
+									<midName>John</midName>
+									<lastName>Raby</lastName>
+								</name>
+								<telephone>1039-992-7880</telephone>
+								<age>29</age>
+								<salary>$9,290</salary>
+								<hireDate>06/31/2017</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+
+					<subdepartment name="Purchasing">
+						<employeeList>
+							<employee ID="16"  workWeek="fullTime">
+								<image src="face15"></image>
+								<name>
+									<firstName>Victoria</firstName>
+									<midName>William</midName>
+									<lastName>Cobian</lastName>
+								</name>
+								<telephone>1039-902-7880</telephone>
+								<age>31</age>
+								<salary>$2,290</salary>
+								<hireDate>09/31/2017</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+
+					<subdepartment name="Audit">
+						<employeeList>
+							<employee ID="17"  workWeek="fullTime">
+								<image src="face7"></image>
+								<name>
+									<firstName>Anna</firstName>
+									<midName>Thomas</midName>
+									<lastName>Harman</lastName>
+								</name>
+								<telephone>1069-902-7880</telephone>
+								<age>37</age>
+								<salary>$2,220</salary>
+								<hireDate>09/31/2007</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+				</department>
+
+				<department name="Legal" diagram_src="diagram4" image_src="dep4">
+					<subdepartment name="Legal Counsel">
+						<employeeList>
+							<employee ID="18"  workWeek="fullTime">
+								<image src="face8"></image>
+								<name>
+									<firstName>Myrl</firstName>
+									<midName>Alexander</midName>
+									<lastName>Accardo</lastName>
+								</name>
+								<telephone>1339-902-7880</telephone>
+								<age>55</age>
+								<salary>$2,920</salary>
+								<hireDate>09/30/2007</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+
+					<subdepartment name="Employee Relations">
+						<employeeList>
+							<employee ID="19"  workWeek="fullTime">
+								<image src="face9"></image>
+								<name>
+									<firstName>Benjamin</firstName>
+									<midName>Robert</midName>
+									<lastName>Hallett</lastName>
+								</name>
+								<telephone>1659-902-7880</telephone>
+								<age>56</age>
+								<salary>$9,920</salary>
+								<hireDate>01/30/2007</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+				</department>
+
+				<department name="Engineering and Technology" diagram_src="diagram5" image_src="dep5">
+					<subdepartment name="Database Administration">
+						<employeeList>
+							<employee ID="20"  workWeek="partTime">
+								<image src="face10"></image>
+								<name>
+									<firstName>Ginger</firstName>
+									<midName>Michael</midName>
+									<lastName>Mullett</lastName>
+								</name>
+								<telephone>1659-906-7880</telephone>
+								<age>61</age>
+								<salary>$2,920</salary>
+								<hireDate>01/30/2007</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+
+					<subdepartment name="System Administration">
+						<employeeList>
+							<employee ID="21"  workWeek="partTime">
+								<image src="face11"></image>
+								<name>
+									<firstName>Belkis</firstName>
+									<midName>David</midName>
+									<lastName>Brumit</lastName>
+								</name>
+								<telephone>1659-926-7880</telephone>
+								<age>33</age>
+								<salary>$1,920</salary>
+								<hireDate>01/20/2007</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+
+					<subdepartment name="Software Engineering">
+						<employeeList>
+							<employee ID="22" experience="senior" workWeek="partTime">
+								<image src="face12"></image>
+								<name>
+									<firstName>Bryce</firstName>
+									<midName>Andrew</midName>
+									<lastName>Aguinaldo</lastName>
+								</name>
+								<telephone>1659-926-1111</telephone>
+								<age>21</age>
+								<salary>$1,990</salary>
+								<hireDate>01/20/2007</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+
+					<subdepartment name="User Interface Designer">
+						<employeeList>
+							<employee ID="23" experience="mid" workWeek="fullTime">
+								<image src="face13"></image>
+								<name>
+									<firstName>Fletcher</firstName>
+									<midName>Peter</midName>
+									<lastName>Manuelito</lastName>
+								</name>
+								<telephone>1659-926-1113</telephone>
+								<age>21</age>
+								<salary>$1,290</salary>
+								<hireDate>01/20/2017</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+
+					<subdepartment name="Quality Assurance">
+						<employeeList>
+							<employee ID="24" experience="mid" workWeek="partTime">
+								<image src="face14"></image>
+								<name>
+									<firstName>Noah</firstName>
+									<midName>Joseph</midName>
+									<lastName>Elliot</lastName>
+								</name>
+								<telephone>1659-926-1166</telephone>
+								<age>21</age>
+								<salary>$3,290</salary>
+								<hireDate>01/20/2012</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+
+					<subdepartment name="Architect">
+						<employeeList>
+							<employee ID="25" experience="intern" workWeek="partTime">
+								<image src="face15"></image>
+								<name>
+									<firstName>Wilmer</firstName>
+									<midName>Jack</midName>
+									<lastName>Lebron</lastName>
+								</name>
+								<telephone>1659-926-1169</telephone>
+								<age>26</age>
+								<salary>$9,290</salary>
+								<hireDate>01/29/2012</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+				</department>
+
+				<department name="Client Support" diagram_src="diagram6" image_src="dep6">
+					<subdepartment name="Customer Support">
+						<employeeList>
+							<employee ID="26"  workWeek="fullTime">
+								<image src="face8"></image>
+								<name>
+									<firstName>Hermelinda</firstName>
+									<midName>Christopher</midName>
+									<lastName>Hyland</lastName>
+								</name>
+								<telephone>0008-926-1169</telephone>
+								<age>47</age>
+								<salary>$9,292</salary>
+								<hireDate>09/29/2012</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+
+					<subdepartment name="Product Support">
+						<employeeList>
+							<employee ID="27"  workWeek="fullTime">
+								<image src="face9"></image>
+								<name>
+									<firstName>Thi</firstName>
+									<midName>Daniel</midName>
+									<lastName>Cumbee</lastName>
+								</name>
+								<telephone>0983-926-1169</telephone>
+								<age>58</age>
+								<salary>$3,292</salary>
+								<hireDate>09/29/2012</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+
+					<subdepartment name="Technical Support">
+						<employeeList>
+							<employee ID="28"  workWeek="fullTime">
+								<image src="face10"></image>
+								<name>
+									<firstName>Jeanice</firstName>
+									<midName>Henry</midName>
+									<lastName>Whittaker</lastName>
+								</name>
+								<telephone>0983-526-1169</telephone>
+								<age>29</age>
+								<salary>$3,292</salary>
+								<hireDate>11/29/2018</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+				</department>
+
+				<department name="Human Resources" diagram_src="diagram7" image_src="dep7">
+					<subdepartment name="Recruitment">
+						<employeeList>
+							<employee ID="29" experience="junior" workWeek="partTime">
+								<image src="face11"></image>
+								<name>
+									<firstName>Franklin</firstName>
+									<midName>Matthew</midName>
+									<lastName>Berrey</lastName>
+								</name>
+								<telephone>0983-926-1169</telephone>
+								<age>36</age>
+								<salary>$3,292</salary>
+								<hireDate>11/29/2018</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+
+					<subdepartment name="Training and Development">
+						<employeeList>
+							<employee ID="30" workWeek="fullTime">
+								<image src="face12"></image>
+								<name>
+									<firstName>Jermaine</firstName>
+									<midName>Oliver</midName>
+									<lastName>Tafolla</lastName>
+								</name>
+								<telephone>0983-111-1169</telephone>
+								<age>36</age>
+								<salary>$2,292</salary>
+								<hireDate>11/22/2018</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+
+					<subdepartment name="Compensation and Benefits">
+						<employeeList>
+							<employee ID="31"  workWeek="partTime">
+								<image src="face13"></image>
+								<name>
+									<firstName>Gino</firstName>
+									<midName>Jay</midName>
+									<lastName>Robitaille</lastName>
+								</name>
+								<telephone>0983-111-9869</telephone>
+								<age>36</age>
+								<salary>$3,292</salary>
+								<hireDate>01/01/2018</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+
+					<subdepartment name="Compliance">
+						<employeeList>
+							<employee ID="32"  workWeek="fullTime">
+								<image src="face14"></image>
+								<name>
+									<firstName>Lonnie</firstName>
+									<midName>Anne</midName>
+									<lastName>Araki</lastName>
+								</name>
+								<telephone>0983-111-9369</telephone>
+								<age>34</age>
+								<salary>$1,292</salary>
+								<hireDate>01/01/2018</hireDate>
+							</employee>
+						</employeeList>
+					</subdepartment>
+				</department>
+
+				<department name="Administration" image_src="dep8">
+					<employeeList>
+						<employee ID="33"  workWeek="partTime">
+							<image src="face15"></image>
+							<name>
+								<firstName>Coleen</firstName>
+								<midName>Lily</midName>
+								<lastName>Aburto</lastName>
+							</name>
+							<telephone>0983-111-9339</telephone>
+							<age>18</age>
+							<salary>$2,292</salary>
+							<hireDate>01/01/2005</hireDate>
+						</employee>
+						<employee ID="38"  workWeek="partTime">
+								<image src="face10"></image>
+								<name>
+									<firstName>Ginger</firstName>
+									<midName>Michael</midName>
+									<lastName>Mullett</lastName>
+								</name>
+								<telephone>1659-906-7880</telephone>
+								<age>61</age>
+								<salary>$2,920</salary>
+								<hireDate>01/30/2007</hireDate>
+						</employee>
+						<employee ID="39"  workWeek="partTime">
+								<image src="face9"></image>
+								<name>
+									<firstName>Hyo</firstName>
+									<midName>May</midName>
+									<lastName>Bastin</lastName>
+								</name>
+								<telephone>239-103-6260</telephone>
+								<age>49</age>
+								<salary>$5,250</salary>
+								<hireDate>08/21/2005</hireDate>
+						</employee>
+					</employeeList>
+				</department>
+			</departmentsList>
+		</midLevel>
+
+		<lowLevel>
+			<cleaningStaff>
+				<employeeList>
+					<employee ID="34"  workWeek="fullTime">
+						<image src="face16"></image>
+						<name>
+							<firstName>William</firstName>
+							<midName>Jean</midName>
+							<lastName>Harty</lastName>
+						</name>
+						<telephone>0983-111-1339</telephone>
+						<age>39</age>
+						<salary>$1,292</salary>
+						<hireDate>01/01/2007</hireDate>
+					</employee>
+				</employeeList>
+			</cleaningStaff>
+
+			<stationaryStaff>
+				<employeeList>
+					<employee ID="35"  workWeek="partTime">
+						<image src="face17"></image>
+						<name>
+							<firstName>Kelsie</firstName>
+							<midName>Ruby</midName>
+							<lastName>Alex</lastName>
+						</name>
+						<telephone>0983-222-1339</telephone>
+						<age>50</age>
+						<salary>$1,292</salary>
+						<hireDate>31/31/2018</hireDate>
+					</employee>
+				</employeeList>
+			</stationaryStaff>
+		</lowLevel>
+	</levels>
+</company>
